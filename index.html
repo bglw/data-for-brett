@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>Hey Look, Some People</h1>
+
+{% for person in site.data.brkwy %}
+<hr>
+<h2>{{ person.name }}</h2>
+<p>{{ person.name }} really likes <span class="good">{{ person.likes }}</span> but isn't a big fan of <span class="bad">{{ person.dislikes }}</span>.</p>
+{% endfor %}
+
+<footer>This is a fake website.</footer>
