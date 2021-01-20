@@ -1,2 +1,11 @@
 title: Data for Brett
 email: liam@cloudcannon.com
+
+plugins:
+  - jekyll-datapage-generator
+
+page_gen:
+  - data: 'brkwy'
+    template: 'person'
+    name: 'person'
+    dir: 'peeps'
